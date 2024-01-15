@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="theme-color" content="#ffffff"/>
+        <meta name="description" content="<%= helmet.description || "Get training from experts, courses, and guidance to master the mining industry in Indonesia." %>" data-rh="true"/>
+        <%if(page !== "home"){%><meta property="og:site_name" content="Smart Miners" /><%}%>
+        <meta property="og:title" content="<%= page !== "home" ? helmet.title : "Smart Miners" %>" data-rh="true"/>
+        <meta property="og:url" content="<%= helmet.path %>" data-rh="true"/>
+        <meta property="og:type" content="website" data-rh="true"/>
+        <meta property="og:image" content="<%= helmet.image ? helmet.image.url : "/banner_dark.jpg" %>" data-rh="true"/>
+        <meta property="og:image:width" content="<%= helmet.image ? helmet.image.width : "1280" %>" data-rh="true"/>
+        <meta property="og:image:height" content="<%= helmet.image ? helmet.image.height : "720" %>" data-rh="true"/>
+        <meta property="og:description" content="<%= helmet.description || "Get training from experts, courses, and guidance to master the mining industry in Indonesia." %>" data-rh="true"/>
+        <meta property="twitter:title" content="<%= page !== "home" ? helmet.title : "Smart Miners" %>" data-rh="true"/>
+        <meta property="twitter:image" content="<%= helmet.image ? helmet.image.url : "/banner_dark.jpg" %>" data-rh="true"/>
+        <meta property="twitter:description" content="<%= helmet.description || "Get training from experts, courses, and guidance to master the mining industry in Indonesia." %>" data-rh="true"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <title><%= helmet.title %></title>
+        <script defer="defer" src="/static/js/main.06b6feb5.js"></script>
+        <link href="/static/css/main.1b0a49a1.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="app-container" class="app-smart-miners"></div>
+    </body>
+</html>
